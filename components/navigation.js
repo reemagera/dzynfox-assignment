@@ -6,6 +6,11 @@ export default function NavBar(){
             <div className={styles.logo}>
                 <Link href="/"><a className={styles.logoa}>My Page</a></Link>
             </div>
+            {/* <a className={styles.hamburger}>
+                <span className={styles.bar}></span>
+                <span className={styles.bar}></span>
+                <span className={styles.bar}></span>
+            </a> */}
             <nav>
                 <ul className={styles.ul}>
                     <li className={styles.li}><Link href="/"><a className={styles.a}>Home</a></Link></li>

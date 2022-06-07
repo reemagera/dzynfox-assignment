@@ -38,3 +38,19 @@
     transition: 0.5s;
     border-radius: 3px;
 }
+/* .hamburger{
+    position: absolute;
+    right: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+}
+.bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s all;
+} */
