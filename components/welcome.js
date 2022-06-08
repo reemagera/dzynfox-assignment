@@ -3,7 +3,7 @@ import styles from "./welcome.module.css"
 import FakeButton from "./fakebuttons/fakebutton"
 import SubTitle from "./fonts/subtitle"
 import BigTitle from "./fonts/bigtitle"
-import { FacebookIcon, LinkedinIcon, TelegramIcon, TwitterIcon } from "next-share"
+import { FacebookIcon, LinkedinIcon, TelegramIcon, TwitterIcon, EmailIcon} from "next-share"
 export default function WelcomeMsg(){
     return(
         <div className={styles.welcome}>
@@ -21,7 +21,8 @@ export default function WelcomeMsg(){
                 <li><a href="https://www.facebook.com"><FacebookIcon size={32} round/></a></li>
                 <li><a href="https://www.twitter.com"><TwitterIcon size={32} round/></a></li>
                 <li><a href="https://www.linkedin.com"><LinkedinIcon size={32} round/></a></li>
-                <li><a href="https://www.github.com/reemagera"><TelegramIcon size={32} round/></a></li>
+                <li><a href="https://www.telegram.com"><TelegramIcon size={32} round/></a></li>
+                <li><a href="https://mail.google.com"><EmailIcon size={32} round/></a></li>
             </ul>
         </div>
     )

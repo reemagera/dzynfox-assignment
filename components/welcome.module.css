@@ -33,12 +33,9 @@
     flex-direction: row;
 }
 .socials{
-    /* padding-top: 25%;
-    padding-right: -5px; */
-    margin: 0px;
-    /* padding-right: 0px; */
+    margin: 250px -10px 0px 100px;
     line-height: 2;
-    position: absolute;
-    top: 50%;
+    /* position: relative; */
+    top: 35%;
     right: 5.4rem;
 }
