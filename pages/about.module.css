@@ -1,0 +1,20 @@
+.bigcontainer{
+    /* align-items: center;
+    background-color: darkslategrey;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    margin: 50px; */
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #39b54a;
+    color: #010507;
+    position: relative;
+}
+.subcontainer{
+    margin: 100px;
+}
+.para{
+    font-size: large;
+    line-height: 2;
+}
