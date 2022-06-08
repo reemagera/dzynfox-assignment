@@ -28,3 +28,17 @@
     color: black;
     transition: 0.5s;
 }
+.welcome{
+    display: flex;
+    flex-direction: row;
+}
+.socials{
+    /* padding-top: 25%;
+    padding-right: -5px; */
+    margin: 0px;
+    /* padding-right: 0px; */
+    line-height: 2;
+    position: absolute;
+    top: 50%;
+    right: 5.4rem;
+}

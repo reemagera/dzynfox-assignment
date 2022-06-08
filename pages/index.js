@@ -6,7 +6,7 @@ export default function Home(){
         <>
             <NavBar/>
             <WelcomeMsg/>
-            <h1>Starting to build landing page</h1>
+            <h1>Work In progress</h1>
         </>
     )
 }
