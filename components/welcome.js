@@ -1,15 +1,27 @@
 import Link from "next/link"
 import styles from "./welcome.module.css"
+import FakeButton from "./fakebuttons/fakebutton"
+import SubTitle from "./fonts/subtitle"
+import BigTitle from "./fonts/bigtitle"
 export default function WelcomeMsg(){
     return(
-        <div className={styles.container}>
-            <h3 className={styles.h3}>Welcome to My Page</h3>
-            <h1 className={styles.h1}>Hi! Glad you're here.<br/>I am Reema Gera. <br/>I am an Engineering Student <br/>from VNIT Nagpur. <br/>This is my portfolio.
-            </h1>
-            <div>
-                <Link href="/"><a>Let's collab</a></Link>
-                <Link href="/"><a>More About Me</a></Link>
+        <>
+            <div className={styles.container}>
+                <SubTitle>Welcome to my page</SubTitle>
+                <BigTitle>Hi! Glad you're here.<br/>I am Reema Gera. 
+                <br/>I am an Engineering Student <br/>from VNIT Nagpur. 
+                <br/>This is my portfolio.</BigTitle>
+                <div>
+                    <Link href="/"><FakeButton>Team Up</FakeButton></Link>
+                    <Link href="/"><FakeButton>More About Me</FakeButton></Link>
+                </div>
             </div>
-        </div>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>LinkedIn</li>
+                <li>GitHub</li>
+            </ul>
+        </>
     )
 }
