@@ -2,11 +2,11 @@ import BigTitle from "../components/fonts/bigtitle";
 import SubTitle from "../components/fonts/subtitle";
 import List from "../components/lists/list";
 import style from './about.module.css'
+import Link from "next/link"
 export default function About(){
     return(
         <div className={style.bigcontainer}>
             <div className={style.subcontainer}>
-                <SubTitle>_______________</SubTitle>
                 <SubTitle>Hello there</SubTitle>
                 <BigTitle>This is About Me</BigTitle>
                 <p className={style.para}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -16,7 +16,10 @@ export default function About(){
                 </p>
             </div>
             <List>
-                <li></li>
+                <li>
+                    <span>427</span>
+                    <span>connections</span>
+                </li>
             </List>
         </div>
     )

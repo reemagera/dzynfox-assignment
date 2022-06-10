@@ -1,5 +1,6 @@
 .headerbox{
-    background-color: rgb(0, 0, 0, 0.7);
+    /* background-color: rgb(0, 0, 0, 0.7); */
+    background-color: #171c33d5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +32,7 @@
 }
 .li{
     margin-right: 1.5rem;
+    color: white;
 }
 .a{
     /* font-size: 1.3rem; */
