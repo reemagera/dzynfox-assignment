@@ -1,0 +1,17 @@
+.titles{
+    color: #171c33;
+    text-transform: capitalize;
+    /* text-align: left; */
+}
+.para{
+    color: #645d72;
+    /* justify-content: left; */
+    /* text-align: left; */
+    /* font-family: 'lora-regular','serif'; */
+
+}
+.bigcontainer{
+    text-align: center;
+    padding: 6rem;
+    background-color: lightgray;
+}

@@ -1,4 +1,5 @@
 import BigTitle from "../components/fonts/bigtitle";
+import Para from "../components/fonts/para";
 import SubTitle from "../components/fonts/subtitle";
 import List from "../components/lists/list";
 import ListItem from "../components/lists/listitem";
@@ -11,7 +12,8 @@ export default function About(){
                 <SubTitle>Hello there</SubTitle>
                 <BigTitle>I am Jane Doe</BigTitle>
                 <span className={style.dash}>___________________________________________________</span>
-                <p className={style.para}>
+                <Para>
+                    <span style={{color:'lightgray'}}>
                     Disclaimer: All the data that you see is not completely true. This is just for a demonstration purpose. This page could be used for any group
                     or individual as a landing page.<br/>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -20,7 +22,8 @@ export default function About(){
                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
                     <br/>
                     Some Random Statistics to catch attention
-                </p>
+                    </span>
+                </Para>
             </div>
             <List>
                 <ListItem>
