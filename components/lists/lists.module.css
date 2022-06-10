@@ -1,0 +1,12 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.listitem{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

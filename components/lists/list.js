@@ -1,6 +1,4 @@
-import styles from './list.module.css'
+import styles from "./lists.module.css"
 export default function List({children}){
-    return(
-        <ul className={styles.list}>{children}</ul>
-    )
+    return(<ul className={styles.list}>{children}</ul>)
 }

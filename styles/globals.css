@@ -21,3 +21,6 @@ a{
 li{
     list-style-type: none;
 }
+p{
+    font-family: "lora-regular",serif;
+}

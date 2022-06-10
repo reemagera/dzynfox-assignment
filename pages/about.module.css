@@ -1,15 +1,39 @@
 .bigcontainer{
     text-align: center;
-    padding-top: 7rem;
-    padding-bottom: 9rem;
+    padding: 6rem;
     background-color: #645d72;
     color: #010507;
 }
 .subcontainer{
-    margin: 100px;
+    margin: 50px;
 }
 .para{
-    font-size: large;
-    line-height: 2;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding: 20px 75px;
     color: lightgray;
+}
+.dash{
+    color: rgba(211, 211, 211, 0.2);
+}
+.num{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.textli{
+    font-size: large;
+    font-weight: bold;
+    color: #171c33;
+}
+.columndash{
+    height: 120px;
+    width: 1.5px;
+    background-color: rgba(211, 211, 211, 0.2);
 }

@@ -13,8 +13,8 @@ export default function WelcomeMsg(){
                 <br/>I am an Engineering Student <br/>from VNIT Nagpur. 
                 <br/>This is my portfolio.</BigTitle>
                 <div>
-                    <Link href="/"><FakeButton>Team Up</FakeButton></Link>
-                    <Link href="/"><FakeButton>More About Me</FakeButton></Link>
+                    <Link href="/"><a><FakeButton>Team Up</FakeButton></a></Link>
+                    <Link href="#about"><a><FakeButton>More About Me</FakeButton></a></Link>
                 </div>
             </div>
             <ul className={styles.socials}>
