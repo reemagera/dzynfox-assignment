@@ -10,8 +10,10 @@ export default function About(){
         <div className={style.bigcontainer}>
             <div className={style.subcontainer}>
                 <SubTitle>Hello there</SubTitle>
+                {/* intro */}
                 <BigTitle>I am Reema Gera</BigTitle>
                 <span className={style.dash}>___________________________________________________</span>
+                {/* brief para about the person or organization. Edit the dummy text */}
                 <Para>
                     <span style={{color:'lightgray'}}>
                     Disclaimer: All the data that you see is not completely true. This is just for a demonstration purpose. This page could be used for any group
@@ -25,6 +27,8 @@ export default function About(){
                     </span>
                 </Para>
             </div>
+            {/* List of achievements or specialities in numbers. Edit the text or add more quantities or lists */}
+            {/* can create multiple lists */}
             <List>
                 <ListItem>
                     <span className={style.num}>427</span>

@@ -11,17 +11,21 @@ export default function Home(){
         <>
             <Head>
                 <title>My Landing Page</title>
-                
             </Head>
             <NavBar/>
             <WelcomeMsg/>
             <div id="about">
                 <About/>
             </div>
+            {/* About Page */}
             <div id="project"><MyProject></MyProject></div>
+            {/* Section to display list of projects or recent works*/}
             <div id="projects"><Projects></Projects></div>
+            {/* Section to display list of interests and any other articles */}
             <div id="contact"><Contact/></div>
+            {/* Contact Info */}
             <FootBanner></FootBanner>
+            {/* Disclaimer or any footnotes / copyright info */}
             {/* <h1>Work In progress</h1> */}
         </>
     )

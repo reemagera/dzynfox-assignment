@@ -18,3 +18,4 @@ export default function NavBar(){
         </HeaderBox>
     )
 }
+// code for navigation bar component

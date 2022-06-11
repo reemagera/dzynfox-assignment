@@ -12,6 +12,7 @@ export default function Projects(){
             <SubTitle><span style={{color:'#645d72'}}>My works</span></SubTitle>
             <BigTitle><span style={{color:'#171c33'}}>Learning never Stops. Check out some of my recent Interests</span></BigTitle>
             <List>
+                {/* articles similar to projects section */}
                 <ListItem>
                     <h2 className={styles.titles}> <FontAwesomeIcon icon={faImage} className={styles.icon}></FontAwesomeIcon> Image Processing</h2>
                     <Para>

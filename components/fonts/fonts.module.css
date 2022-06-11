@@ -1,12 +1,15 @@
 .h4{
+    /*sub title */
     text-transform: uppercase;
     color: antiquewhite;
 }
 .h1{
+    /* big titles */
     font-size: 3.5rem;
     line-height: 1.25;
 }
 .para{
+    /* paragraphs */
     font-size: 1.5rem;
     line-height: 1.2;
     /* padding: 20px 75px; */

@@ -1,10 +1,12 @@
 .list{
+    /* list */
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 50px;
 }
 .listitem{
+    /* each list item */
     margin: 20px 50px;
     display: flex;
     flex-direction: column;

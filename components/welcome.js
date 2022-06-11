@@ -8,6 +8,7 @@ export default function WelcomeMsg(){
     return(
         <div className={styles.welcome}>
             <div className={styles.container}>
+                {/* Edit the text */}
                 <SubTitle>Welcome to my page</SubTitle>
                 <BigTitle>Hi! Glad you're here.<br/>I am Reema Gera. 
                 <br/>I am an Engineering Student <br/>from VNIT Nagpur. 
@@ -17,6 +18,7 @@ export default function WelcomeMsg(){
                     <Link href="#about"><a><FakeButton>More About Me</FakeButton></a></Link>
                 </div>
             </div>
+            {/* social links. hrefs can be edited */}
             <ul className={styles.socials}>
                 <li><a href="https://www.facebook.com"><FacebookIcon size={32} round/></a></li>
                 <li><a href="https://www.twitter.com"><TwitterIcon size={32} round/></a></li>
@@ -27,3 +29,4 @@ export default function WelcomeMsg(){
         </div>
     )
 }
+// welcome message

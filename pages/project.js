@@ -11,11 +11,13 @@ export default function MyProject(){
         <div className={styles.bigcontainer}>
             <SubTitle>My Projects</SubTitle>
             <BigTitle>Here are some of my recent projects</BigTitle>
+            {/* Recent works */}
             <span className={styles.dash}>______________________________________________________________________________________________________________________________________________________________________________________________</span>
             <ListItem>
                 <span className={styles.mystyle}>
                     <h2 className={styles.titles}>Machine Learning</h2>
                     <Para>
+                        {/* description */}
                         <span className={styles.para}>
                         Some random things about Image Processing.Image processing is the process of transforming an image into a 
                         digital form and performing certain operations to get some useful information from it. The image 
@@ -24,12 +26,14 @@ export default function MyProject(){
                         Visualization - Find objects that are not visible in the image
                         </span>
                     </Para>
+                    {/* Lead to documentation */}
                     <a href='https://www.google.com'><FakeButton>Learn more</FakeButton></a>
-                    {/* Substitue with */}
+                    {/* Substitue with URLS*/}
                 </span>
             </ListItem>
             <span className={styles.hdash}>___________________________________________________________________________________________________________________________________________________________________________</span>
             <ListItem>
+                {/* dummies */}
                 <span className={styles.mystyle}>
                 <h2 className={styles.titles}>FPGA Boards</h2>
                 <Para>

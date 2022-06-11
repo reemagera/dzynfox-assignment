@@ -15,6 +15,7 @@ export default function Contact(){
                 <div id='contact'>
                 <h4 className={styles.miniheading}>Contact Info</h4>
                 <span className={styles.hdash}>______________________________________________________________________________________________________________________</span>
+                {/* All the contact Info */}
                 <List>
                     <ListItem>
                         <h4>Email me at</h4>
@@ -31,7 +32,7 @@ export default function Contact(){
                     </ListItem>
                     <span className={styles.columndash}></span>
                     <ListItem>
-                        
+                        {/* socials */}
                         <h4>Connect with me</h4>
                         <ul className={styles.listalign}>
                             <li><a href="https://www.facebook.com"><FacebookIcon size={32} className={styles.icon} round/>| FaceBook</a></li>
@@ -44,7 +45,7 @@ export default function Contact(){
                 </List>
                 </div>
                 <span className={styles.hdash}>______________________________________________________________________________________________________________________</span>
-                
+{/* did not add a html form now as it needs to be connected with a database to collect responses. This is only a demo. So just added a link that would lead the user to some other webpage. */}
                 <div id='pitch'>
                     <h4 className={styles.miniheading}>Send me a message</h4>
                     <span className={styles.hdash}>______________________________________________________________________________________________________________________</span>
