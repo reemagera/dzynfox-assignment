@@ -3,6 +3,7 @@ import NavBar from "../components/navigation"
 import WelcomeMsg from "../components/welcome"
 import About from "./about"
 import Contact from "./contact"
+import FootBanner from "./footbanner"
 import MyProject from "./project"
 import Projects from "./projects"
 export default function Home(){
@@ -20,7 +21,8 @@ export default function Home(){
             <div id="project"><MyProject></MyProject></div>
             <div id="projects"><Projects></Projects></div>
             <div id="contact"><Contact/></div>
-            <h1>Work In progress</h1>
+            <FootBanner></FootBanner>
+            {/* <h1>Work In progress</h1> */}
         </>
     )
 }
