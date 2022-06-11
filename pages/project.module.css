@@ -1,0 +1,17 @@
+.bigcontainer{
+    background-color: #171c33;
+    text-align: center;
+    padding: 6rem;
+}
+.mystyle{
+    padding: 1.5rem;
+    /* margin: 1.5rem; */
+}
+.para{
+    color: lightgray;
+}
+.hdash{
+    color: rgba(211, 211, 211, 0.2);
+    /* width: 350px;
+    height: 15px; */
+}

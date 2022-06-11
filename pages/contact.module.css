@@ -1,0 +1,38 @@
+.bigcontainer{
+    background-color: #0000007b;
+    text-align: center;
+    padding: 6rem;
+    line-height: 2rem;
+}
+.smallcontainer{
+    background-color: black;
+    margin: 20px 100px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.miniheading{
+    color: lightgray;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.icon{
+    position: relative;
+    top: 11px;
+    right: 5px;
+    z-index: 1;
+}
+.listalign{
+    text-align: left;
+}
+.columndash{
+    /* position: relative; */
+    top: 120px;
+    height: 300px;
+    width: 1.5px;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+.hdash{
+    color: rgba(211, 211, 211, 0.2);
+    /* width: 350px;
+    height: 15px; */
+}

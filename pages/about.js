@@ -10,7 +10,7 @@ export default function About(){
         <div className={style.bigcontainer}>
             <div className={style.subcontainer}>
                 <SubTitle>Hello there</SubTitle>
-                <BigTitle>I am Jane Doe</BigTitle>
+                <BigTitle>I am Reema Gera</BigTitle>
                 <span className={style.dash}>___________________________________________________</span>
                 <Para>
                     <span style={{color:'lightgray'}}>

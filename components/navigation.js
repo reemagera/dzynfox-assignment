@@ -11,8 +11,9 @@ export default function NavBar(){
             <ListSet>
                 <NavItem><Link href="/"><a className={styles.a}>Home</a></Link></NavItem>
                 <NavItem><Link href="#about"><a className={styles.a}>About</a></Link></NavItem>
-                <NavItem><Link href="#projects"><a className={styles.a}>Projects</a></Link></NavItem>
-                <NavItem><Link href="/"><a className={styles.a}>Contact</a></Link></NavItem>
+                <NavItem><Link href="#project"><a className={styles.a}>Projects</a></Link></NavItem>
+                <NavItem><Link href="#projects"><a className={styles.a}>Interests</a></Link></NavItem>
+                <NavItem><Link href="#contact"><a className={styles.a}>Contact</a></Link></NavItem>
             </ListSet>
         </HeaderBox>
     )
